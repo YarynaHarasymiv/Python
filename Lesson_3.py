@@ -124,16 +124,51 @@ from locale import currency
 
 
 
-a = 0
-add_list = []
-
-while len(add_list) < 10:
-    print("len of list", len(add_list))
-    add_list.append(a)
-    a += 1
-    if len(add_list) == 5:
-        print("You are at the middle of the list")
-
-
+# a = 0
+# add_list = []
+#
+# while len(add_list) < 10:
+#     print("len of list", len(add_list))
+#     add_list.append(a)
+#     a += 1
+#     if len(add_list) == 5:
+#         print("You are at the middle of the list")
 
 
+
+
+user_1 = {
+    "user_name": "Tester",
+    "role": "admin",
+    "account_connection": True
+}
+user_2 = {
+    "user_name": "John",
+    "role": "user",
+    "account_connection": False
+}
+user_3 = {
+    "user_name": "Middle",
+    "role": "pro_user",
+    "account_connection": True
+}
+
+list_of_users = [user_1, user_2, user_3]
+
+for user in list_of_users:
+    print(f"Work with {user["user_name"]} account ---->")
+    if not user["account_connection"]:
+        count_of_tries = 10
+        while count_of_tries != 0:
+
+            print("Try to connect")
+            count_of_tries -= 1
+            if count_of_tries == 5:
+             print("In the middle of the tries")
+            continue
+            print("Count of tries left", count_of_tries)
+    elif user["role"] == "admin":
+        print(f"Hello in system {user["user_name"]}")
+    else:
+        print("Welcome on the board")
+print("All users were checked")
