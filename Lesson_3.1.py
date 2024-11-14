@@ -5,7 +5,23 @@
 #     print("Ви увійшли в систему")
 # else:
 #     print("Неправильний пароль")
-from calendar import weekheader
+
+
+
+
+
+
+# enter_password = "password"
+#
+# correct_password = "password123"
+#
+# if enter_password == correct_password:
+#     print("Ви увійшли в систему")
+# else:
+#     print("Неправтльний пароль")
+
+
+
 
 
 
@@ -97,6 +113,46 @@ from calendar import weekheader
 # print(list)
 # print(list[2])
 # print(list.index(3))
+
+
+
+
+
+
+# list_of_number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print("Сума чисел:",sum(list_of_number))
+#
+# sum_of_number = sum(list_of_number)
+# print("Сума чисел:",sum_of_number)
+
+
+
+
+# number = 3
+#
+# factorial = 1
+# for i in range(1, number + 1):
+#     factorial *= i
+#
+# print(f"Факторіал числа {number} дорівнює:", factorial)
+
+
+
+
+
+# a = 1
+# b = 50
+#
+# for i in range(1, b + 1):
+#     if i % 2 == 0:
+#         print(i)
+
+
+
+
+# for num in range(2, 51):
+#     if all(num %i != 0 for i in range(2, num)):
+#         print(num)
 
 
 
