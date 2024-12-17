@@ -5,8 +5,7 @@
 #     print("Ви увійшли в систему")
 # else:
 #     print("Неправильний пароль")
-
-
+#
 
 
 
@@ -25,7 +24,7 @@
 
 
 
-#
+
 # # Встановлюємо номер дня тижня
 # day_number = int(input("Введіть номер дня тижня (1-7): "))
 #
@@ -50,7 +49,7 @@
 
 
 
-#
+
 # day_1 = {
 #     "day_is": "Monday",
 #     "number_of_day": 1
@@ -85,7 +84,7 @@
 # list_of_day = [day_1, day_2, day_3, day_4, day_5, day_6, day_7]
 #
 #
-# day_number = 8
+# day_number = 7
 #
 #
 # for day in list_of_day:
@@ -104,6 +103,15 @@
 #     print(result)
 #     # print(number, "*", a, "=", a*number)
 
+# n_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# n = int(input("Введіть число (1-10): "))
+# for num in n_1:
+#     suma = n * num
+#     result = str(n) + " * " + str(num) + "=" + str(suma)
+#     print(result)
+
+
+
 # list = []
 #
 # list.append(1)
@@ -119,6 +127,7 @@
 
 
 
+#
 # list_of_number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print("Сума чисел:",sum(list_of_number))
 #
@@ -127,8 +136,7 @@
 
 
 
-
-# number = 3
+# number = int(input("Введіть число:"))
 #
 # factorial = 1
 # for i in range(1, number + 1):
@@ -149,10 +157,10 @@
 
 
 
+for num in range(1, 51):
+    if all(num %i != 0  for i in range(2, num)):
+        print(num)
 
-# for num in range(2, 51):
-#     if all(num %i != 0 for i in range(2, num)):
-#         print(num)
 
 
 
