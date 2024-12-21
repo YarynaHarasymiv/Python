@@ -16,7 +16,7 @@
 #
 # for start_pos, stop_pos in list_of_ranges:
 #     print_numbers(start_pos, stop_pos)
-import turtle
+
 
 # print("------")
 # def check_connection(username, count_tries, priority):
@@ -40,19 +40,20 @@ import turtle
 #
 # check_connection(count_tries=10, username="Oleg", priority=100)
 
-import turtle
+# import turtle
+#
+# def drowSquare(size, color):
+#     turtle.speed(1)
+#     turtle.color(color)
+#     turtle.begin_fill()
+#     def move(len):
+#         turtle.forward(len)
+#         turtle.left(90)
+#     for _ in range(4):
+#             move(size)
+#     turtle.end_fill()
+#
+# drowSquare(100, "red")
+# turtle.goto(200, 200)
+# drowSquare(200, "blue")
 
-def drowSquare(size, color):
-    turtle.speed(1)
-    turtle.color(color)
-    turtle.begin_fill()
-    def move(len):
-        turtle.forward(len)
-        turtle.left(90)
-    for _ in range(4):
-            move(size)
-    turtle.end_fill()
-
-drowSquare(100, "red")
-turtle.goto(200, 200)
-drowSquare(200, "blue")
