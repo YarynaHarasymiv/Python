@@ -57,3 +57,33 @@
 # turtle.goto(200, 200)
 # drowSquare(200, "blue")
 
+
+
+
+# def add_integers(a, b):
+#     result = a + b
+#     return result
+#
+# sum_int = add_integers(5, 10)
+# print(sum_int)
+#
+#
+#
+# def add_integers(a, b):
+#     result = a + b
+#     return result
+#
+# sum_int = add_integers(a=5, b=10)
+# print(sum_int)
+
+
+
+# import math
+# result = math.sqrt(64)
+# print(result)
+
+
+
+
+
+
