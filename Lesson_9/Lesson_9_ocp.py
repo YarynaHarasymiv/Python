@@ -41,9 +41,8 @@ from abc import ABC, abstractmethod, abstractclassmethod
 
 class DiscountCalculator(ABC):
 
-    @classmethod
     @abstractmethod
-    def get_discount_product(cls):
+    def get_discount_product(self):
         pass
 
 class DiscountCalculatorShirt(DiscountCalculator):
