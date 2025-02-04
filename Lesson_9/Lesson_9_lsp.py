@@ -14,13 +14,15 @@ class Car:
 
 
 class Car2(Car):
-    def __init__(self, type):
-        super().__init__(type)
+    pass
+    # def __init__(self, type):
+    #     super().__init__(type)
 
 
 class Car3(Car):
-    def __init__(self, type):
-        super().__init__(type)
+    pass
+    # def __init__(self, type):
+    #     super().__init__(type)
 
 
 car = Car("Toyota")
