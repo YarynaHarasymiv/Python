@@ -13,7 +13,7 @@ class Students(Enum):
     SERGEY = 3
 
 
-class TeamMembershipLookUp():
+class TeamMembershipLookUp(ABC):
     @abstractmethod
     def find_all_students(self, team):
         pass
@@ -67,11 +67,11 @@ class StudentMemberShips(StudentMembershipLookUp):
                 yield teams[1].name_team
 
 
-
-class Analysis_1():
+class Analysis_1:
     def __init__(self, team_member_ship_lookup):
         for student in team_member_ship_lookup.find_all_students(Teams.RED_TEAM):
             print(f"{student} is in Red team")
+
 
 class Analysis_2:
     def __init__(self, student_member_ship_lookup):
@@ -86,7 +86,7 @@ student_3 = Student("Sergey")
 
 team_memberships = TeamMemberShips()
 team_memberships.add_team_memberships(student_1, Teams.RED_TEAM)
-team_memberships.add_team_memberships(student_2, Teams.BLUE_TEAM)
+team_memberships.add_team_memberships(student_2, Teams.RED_TEAM)
 team_memberships.add_team_memberships(student_3, Teams.GREEN_TEAM)
 
 
